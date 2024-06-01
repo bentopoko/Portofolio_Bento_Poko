@@ -1,11 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bento Poko | Full Stack Developer & Data Scientist/Analyst</title>
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div class="video-background">
+      <video autoplay muted loop id="bg-video">
+        <source src="background.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+    <div class="content">
+      <header>
+        <img src="profile.jpg" alt="Bento Poko" class="profile-photo" />
+        <h1>Bento Poko</h1>
+        <p>Full Stack Developer & Data Scientist/Analyst</p>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#video">Video</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <main>
+        <section id="about">
+          <h2>About Me</h2>
+          <p>
+            Welcome! I'm Bento Poko, a passionate Full Stack Developer and Data
+            Scientist. I love creating web applications and analyzing data to
+            solve complex problems. Below, you can find more about my skills,
+            projects, and how to get in touch with me.
+          </p>
+        </section>
+        <section id="skills">
+          <h2>Skills</h2>
+          <div class="skills-icons">
+            <i class="fab fa-html5" title="HTML5"></i>
+            <i class="fab fa-css3-alt" title="CSS3"></i>
+            <i class="fab fa-js-square" title="JavaScript"></i>
+            <i class="fab fa-react" title="React"></i>
+            <i class="fab fa-angular" title="Angular"></i>
+            <i class="fab fa-node-js" title="Node.js"></i>
+            <i class="fas fa-database" title="SQL"></i>
+            <i class="fas fa-chart-line" title="Data Analysis"></i>
+            <i class="fab fa-python" title="Python"></i>
+            <i class="fas fa-brain" title="Machine Learning"></i>
+          </div>
+        </section>
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of the project goes here.</p>
+          </div>
+          <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of the project goes here.</p>
+          </div>
+          <div class="project">
+            <h3>Project 3</h3>
+            <p>Description of the project goes here.</p>
+          </div>
+        </section>
+        <section id="video">
+          <h2>Introduction Video</h2>
+          <video controls>
+            <source src="intro.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </section>
+        <section id="contact">
+          <h2>Contact</h2>
+          <p>Email: bento.poko@outlook.com</p>
+          <p>
+            LinkedIn:
+            <a
+              href="https://www.linkedin.com/in/bento-poko-55b12215a/"
+              target="_blank"
+              >linkedin.com/in/bento-poko</a
+            >
+          </p>
+          <p>
+            GitHub:
+            <a href="https://github.com/bentopoko" target="_blank"
+              >github.com/bentopoko</a
+            >
+          </p>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2024 Bento Poko. All rights reserved.</p>
+      </footer>
+    </div>
   </body>
 </html>

@@ -6,6 +6,7 @@ html {
   color: #fff;
   height: 100%;
   overflow: auto;
+  background-color: #f1fee6;
 }
 
 .video-background {
@@ -41,6 +42,7 @@ html {
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
+  color: #fff;
 }
 
 header {
@@ -155,4 +157,19 @@ footer {
 footer p {
   margin: 0;
   font-size: 0.9rem;
+}
+
+#contact a,
+.project a {
+  color: white;
+}
+
+#contact a:hover,
+.project a:hover {
+  color: #4caf50;
+}
+
+#contact a:active,
+.project a:active {
+  color: #4caf50;
 }
